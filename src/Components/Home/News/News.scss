@@ -1,0 +1,67 @@
+@use "../../../scss/utilities/" as *;
+
+.news-agenda__header {
+  display: flex;
+  align-items: center;
+  gap: rem(55);
+  margin-bottom: rem(55);
+  @include breakpoint-down(sm) {
+    flex-direction: column;
+    gap: rem(30);
+  }
+  h2 {
+    white-space: nowrap;
+    margin-bottom: 0;
+    font-size: rem(24);
+    line-height: rem(38);
+  }
+  .ant-input-affix-wrapper {
+    background-color: #f6f7f9;
+    border: none;
+  }
+  .ant-input {
+    margin-left: rem(16);
+    font-size: rem(14);
+    line-height: rem(18);
+    background-color: #f6f7f9;
+    &::placeholder {
+      font-size: rem(14);
+      line-height: rem(18);
+    }
+  }
+  svg {
+    fill: #919fae;
+  }
+}
+
+.cards-container {
+  align-items: start;
+}
+
+.news-container {
+  border-right: 1px solid #f4f6f5;
+  padding-right: rem(40);
+  display: grid;
+  gap: rem(24);
+  justify-content: center;
+  @include breakpoint-down(lg) {
+    border-right: none;
+    border-bottom: 1px solid #f4f6f5;
+    padding-right: 0;
+    padding-bottom: rem(40);
+  }
+  @include breakpoint-down(sm) {
+    gap: rem(32);
+  }
+}
+
+.agenda-container {
+  padding-inline: rem(60);
+  display: grid;
+  gap: rem(40);
+  align-items: start;
+  @include breakpoint-down(lg) {
+    padding-inline: 0;
+    padding-top: rem(40);
+  }
+}

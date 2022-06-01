@@ -1,13 +1,16 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@use "scss/utilities/" as *;
+@use "scss/globals/" as *;
+@import "../node_modules/antd/dist/antd.css";
+
+.ant-btn {
+  padding: rem(11) rem(33);
+  height: auto;
+  border-radius: rem(4);
+  font-size: rem(14);
+  font-weight: 700;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.ant-btn-primary {
+  background-color: var(--clr-primary);
+  border-color: var(--clr-primary);
 }

@@ -1,0 +1,97 @@
+@use "../../../scss/utilities/" as *;
+
+.header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 11;
+  transition: all 250ms ease-in-out;
+  @include breakpoint-down(md) {
+    background-color: var(--clr-white) !important;
+  }
+  .nav__link--active {
+    @include breakpoint-down(md) {
+      color: var(--clr-black) !important;
+      &::after {
+        background-color: var(--clr-black);
+      }
+    }
+  }
+  .nav__link {
+    @include breakpoint-down(md) {
+      color: #8d8d8d;
+    }
+  }
+}
+
+.header--white {
+  background-color: var(--clr-white);
+  .nav__link {
+    color: #8d8d8d;
+  }
+  .nav__link--active {
+    color: var(--clr-black);
+    &::after {
+      background-color: var(--clr-black);
+    }
+  }
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-block: rem(17);
+}
+
+.nav__list {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  gap: rem(32);
+  @include breakpoint-down(md) {
+    position: absolute;
+    top: rem(87);
+    left: 0;
+    flex-direction: column;
+    width: 100%;
+    background-color: var(--clr-white);
+    max-height: 0;
+    overflow: hidden;
+    transition: all 250ms ease-in-out;
+    .nav__item:last-child {
+      padding-bottom: rem(20);
+    }
+  }
+}
+
+.nav__list--active {
+  max-height: 1000px;
+}
+
+.nav__link {
+  color: #cecdcd;
+}
+
+.nav__link--active {
+  color: var(--clr-white);
+  position: relative;
+  &::after {
+    content: "";
+    position: absolute;
+    bottom: rem(-8);
+    left: 25%;
+    width: 50%;
+    height: 2px;
+    border-radius: 2px;
+    background-color: var(--clr-white);
+    transition: all 250ms ease-in-out;
+  }
+}
+
+.hamburger {
+  display: none;
+  @include breakpoint-down(md) {
+    display: block;
+  }
+}

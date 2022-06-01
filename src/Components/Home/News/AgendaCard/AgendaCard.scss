@@ -1,0 +1,33 @@
+@use "../../../../scss/utilities/" as *;
+
+.agenda-card {
+  display: flex;
+  gap: rem(20);
+  align-items: center;
+}
+
+.agenda-card__content {
+  position: relative;
+  flex-grow: 1;
+  .anticon-arrow-right {
+    position: absolute;
+    right: rem(0);
+    top: rem(0);
+    cursor: pointer;
+    svg {
+      fill: #0c101a;
+    }
+  }
+}
+
+.agenda-card__date {
+  font-size: rem(14);
+  line-height: rem(24);
+  margin-bottom: rem(8);
+}
+
+.agenda-card__title {
+  font-size: rem(16);
+  line-height: rem(22);
+  margin-bottom: 0;
+}

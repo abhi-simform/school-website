@@ -1,0 +1,31 @@
+@use "../../../scss/utilities/" as *;
+
+.gallery {
+  background-color: #f9fbfd;
+  margin-bottom: rem(80);
+}
+
+.gallery__title {
+  font-size: rem(24);
+  line-height: rem(38);
+  color: #0c101a;
+  margin-bottom: rem(20);
+}
+
+.gallery__images {
+  div {
+    padding: rem(20);
+    .gallery__image {
+      width: 100%;
+      object-fit: cover;
+    }
+  }
+}
+
+.gallery-container {
+  button {
+    margin-top: rem(20);
+    margin-inline: auto;
+    display: inherit;
+  }
+}

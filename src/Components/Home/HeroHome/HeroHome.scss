@@ -1,0 +1,20 @@
+@use "../../../scss/utilities/" as *;
+
+.hero {
+  background-image: url("../../../Assets/Images/heor-bg.jpg");
+  background-size: cover;
+  padding: rem(160) 0 rem(115) 0;
+}
+
+.hero__tag {
+  color: var(--clr-white);
+  opacity: 0.6;
+  text-transform: uppercase;
+}
+
+.hero__title {
+  color: var(--clr-white);
+  max-width: rem(700);
+  font-size: rem(24);
+  line-height: rem(40);
+}

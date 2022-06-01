@@ -1,0 +1,55 @@
+@use "../../../../scss/utilities/" as *;
+
+.news-card {
+  display: flex;
+  align-self: start;
+  gap: rem(24);
+  @include breakpoint-down(sm) {
+    flex-direction: column;
+    gap: rem(12);
+    align-items: stretch;
+  }
+}
+
+.news-card__content {
+  position: relative;
+  @include breakpoint-down(sm) {
+    padding-inline: rem(20);
+  }
+  .anticon-arrow-right {
+    position: absolute;
+    right: rem(30);
+    bottom: rem(0);
+    cursor: pointer;
+    svg {
+      fill: #0c101a;
+    }
+  }
+}
+
+.news-card__image {
+  img {
+    border-radius: 4px;
+    @include breakpoint-down(sm) {
+      width: 100%;
+    }
+  }
+}
+
+.news-card__title {
+  font-size: rem(16);
+  line-height: rem(22);
+  margin-bottom: rem(8);
+}
+
+.news-card__description {
+  font-size: rem(12);
+  line-height: rem(24);
+  margin-bottom: rem(16);
+}
+
+.news-card__date {
+  font-size: rem(12);
+  line-height: rem(24);
+  margin-bottom: rem(0);
+}

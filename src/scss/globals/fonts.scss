@@ -1,0 +1,21 @@
+@use "../utilities/" as *;
+
+:root {
+  --font-body: "Open Sans", sans-serif;
+}
+
+@font-face {
+  font-family: "Open Sans";
+  src: url("../../Assets/Fonts/OpenSans-400.woff2") format("woff2"), url("../../Assets/Fonts/OpenSans-400.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Open Sans";
+  src: url("../../Assets/Fonts/OpenSans-700.woff2") format("woff2"), url("../../Assets/Fonts/OpenSans-400.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
