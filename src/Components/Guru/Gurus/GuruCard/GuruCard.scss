@@ -1,0 +1,51 @@
+@use "../../../../scss/utilities/" as *;
+
+.guru-card {
+  background: #f9fbfd;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  padding: rem(48) rem(24);
+  height: 100%;
+}
+
+.guru-card__image {
+  text-align: center;
+  margin-bottom: rem(50);
+}
+
+.guru-card__info {
+  display: grid;
+  gap: rem(16);
+}
+
+.guru-info {
+  display: grid;
+  grid-template-columns: 80px 1fr;
+  span:first-child {
+    position: relative;
+    &::after {
+      position: absolute;
+      content: ":";
+      top: 0;
+      right: 0;
+    }
+  }
+  span:last-child {
+    margin-left: rem(16);
+  }
+  @include breakpoint-down(xs) {
+    grid-template-columns: 1fr;
+    span:first-child {
+      position: relative;
+      &::after {
+        position: absolute;
+        content: "";
+        top: 0;
+        right: 0;
+      }
+    }
+    span:last-child {
+      margin-left: 0;
+    }
+  }
+}

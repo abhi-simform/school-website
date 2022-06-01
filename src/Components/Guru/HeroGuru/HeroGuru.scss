@@ -1,0 +1,19 @@
+@use "../../../scss/utilities/" as *;
+
+.hero-guru {
+  background-image: url("../../../Assets/Images/heor-bg.jpg");
+  padding-block: rem(175) rem(85);
+}
+
+.hero-guru-container {
+  text-align: center;
+  h1 {
+    font-size: rem(24);
+    line-height: rem(33);
+    margin-bottom: rem(40);
+    color: #ffffff;
+  }
+  p {
+    margin-bottom: 0;
+  }
+}
