@@ -1,0 +1,68 @@
+@use "../../../scss/utilities/" as *;
+
+.aboutdata {
+  padding-top: 0;
+}
+
+.ant-table {
+  overflow-x: auto;
+  table {
+    text-align: center !important;
+  }
+}
+
+.ant-table-pagination {
+  display: none !important;
+}
+.ant-table-thead > tr > th {
+  background-color: var(--clr-primary) !important;
+  color: var(--clr-white) !important;
+  text-align: center !important;
+}
+
+.table-container {
+  overflow-x: auto;
+}
+
+table {
+  width: 100%;
+  min-width: min-content;
+  text-align: center;
+  overflow-x: scroll;
+  margin-top: rem(24);
+}
+
+table,
+th,
+td {
+  border: 2px solid var(--clr-muted);
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding-block: rem(10);
+}
+
+th {
+  background-color: var(--clr-primary);
+  color: var(--clr-white);
+  font-size: rem(18);
+  line-height: rem(25);
+  font-weight: 400;
+}
+
+tr {
+  color: var(--clr-black);
+}
+
+tr:nth-child(odd) {
+  background-color: #b9caff;
+}
+
+.table__title {
+  margin-bottom: 0;
+  margin-top: rem(40);
+  font-size: rem(24);
+  line-height: rem(28);
+}

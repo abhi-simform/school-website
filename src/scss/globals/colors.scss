@@ -1,11 +1,13 @@
 @use "../utilities/" as *;
 
 :root {
-  --clr-title: hsl(223, 37%, 7%);
-  --clr-subtitle: hsl(192, 8%, 24%);
-  --clr-body: hsl(211, 15%, 63%);
-  --bg-light: hsl(210, 50%, 98%);
-  --clr-primary: hsl(200, 99%, 43%);
-  --clr-white: hsl(0, 0%, 100%);
-  --clr-black: hsl(0, 0%, 0%);
+  --clr-title: #0c101a;
+  --clr-subtitle: #384042;
+  --clr-body: #92a0af;
+  --clr-muted: #dfdfdf;
+  --bg-light: #f7fafc;
+  --bg-lighter: #f6f7f9;
+  --clr-primary: #0192da;
+  --clr-white: #ffffff;
+  --clr-black: #000000;
 }

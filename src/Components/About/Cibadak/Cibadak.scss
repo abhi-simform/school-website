@@ -1,0 +1,105 @@
+@use "../../../scss/utilities/" as *;
+
+.cibadak {
+  padding-bottom: 0;
+  h2 {
+    text-align: center;
+    font-size: rem(24);
+    line-height: rem(32);
+    margin-bottom: rem(80);
+  }
+}
+
+.cibadak-container {
+  width: 90%;
+  margin: 0 auto;
+  max-width: rem(880);
+  text-align: center;
+}
+
+.cibadak-left {
+  padding-right: rem(10);
+  @include breakpoint-down(lg) {
+    padding-right: 0;
+  }
+}
+
+.cibadak__card {
+  .card__image {
+    img {
+      background-color: var(--clr-white);
+      padding: rem(15);
+      border-radius: 100px;
+      margin-bottom: rem(24);
+      box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.04);
+    }
+  }
+  h4 {
+    font-size: rem(14);
+    line-height: rem(32);
+    margin-bottom: 0;
+  }
+  p {
+    font-size: rem(14);
+    line-height: rem(32);
+    margin-bottom: rem(0);
+  }
+}
+
+.cibadak-left-cards {
+  background-color: var(--clr-primary);
+  border-radius: 10px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-block: rem(40);
+  @include breakpoint-down(lg) {
+    flex-direction: row;
+    justify-content: center;
+    & > * {
+      flex-grow: 1;
+    }
+  }
+  @include breakpoint-down(md) {
+    display: grid;
+    gap: rem(20);
+  }
+}
+
+.cibadak__card--left {
+  h4 {
+    color: var(--clr-white);
+  }
+  p {
+    color: var(--clr-white);
+    opacity: 0.6;
+  }
+}
+
+.cibadak-right-cards {
+  .ant-col {
+    padding: rem(20) rem(0) rem(20) rem(30);
+    @include breakpoint-down(lg) {
+      padding: rem(20) rem(10) rem(20) rem(10);
+    }
+    @include breakpoint-down(md) {
+      padding: rem(10) rem(0);
+    }
+  }
+}
+
+.cibadak__card--right {
+  p,
+  h4 {
+    line-height: 1.5;
+  }
+  h4 {
+    margin-top: rem(8);
+  }
+  background-color: var(--bg-lighter);
+  padding: rem(24) rem(10);
+  border: 2px solid var(--clr-muted);
+  border-radius: 10px;
+  min-height: 300px;
+}

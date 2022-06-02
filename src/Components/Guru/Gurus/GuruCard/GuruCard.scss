@@ -1,7 +1,7 @@
 @use "../../../../scss/utilities/" as *;
 
 .guru-card {
-  background: #f9fbfd;
+  background: var(--bg-lighter);
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
   border-radius: 5px;
   padding: rem(48) rem(24);
@@ -21,8 +21,10 @@
 .guru-info {
   display: grid;
   grid-template-columns: 80px 1fr;
+  color: var(--clr-title);
   span:first-child {
     position: relative;
+    font-weight: 700;
     &::after {
       position: absolute;
       content: ":";

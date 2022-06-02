@@ -2,7 +2,7 @@
 
 .gurus-container {
   hr {
-    border: 1px solid #dfdfdf;
+    border: 1px solid var(--clr-muted);
     margin-block: rem(24) rem(80);
   }
 }
@@ -10,14 +10,14 @@
 .guru-search {
   text-align: right;
   .ant-input-affix-wrapper {
-    background-color: #f6f7f9;
+    background-color: var(--bg-lighter);
     border: none;
   }
   .ant-input {
     margin-left: rem(16);
     font-size: rem(14);
     line-height: rem(18);
-    background-color: #f6f7f9;
+    background-color: var(--bg-lighter);
     &::placeholder {
       font-size: rem(14);
       line-height: rem(18);
@@ -47,7 +47,10 @@
   }
 
   .ant-pagination-item {
-    background-color: #dfdfdf;
+    background-color: var(--clr-muted);
+    a {
+      color: #3a4e50;
+    }
   }
 
   .ant-pagination-item-active {
@@ -59,8 +62,8 @@
 
   .ant-pagination-prev .ant-pagination-item-link,
   .ant-pagination-next .ant-pagination-item-link {
-    background-color: #f6f7f9;
-    border: 1px solid #f6f7f9;
+    background-color: var(--bg-lighter);
+    border: 1px solid var(--bg-lighter);
     color: var(--clr-primary);
   }
 }

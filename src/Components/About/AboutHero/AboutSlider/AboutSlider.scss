@@ -1,0 +1,46 @@
+@use "../../../../scss/utilities/" as *;
+
+.swiper-slide {
+  width: 255px !important;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  line-height: 1;
+  &::after {
+    line-height: 1;
+    background: rgba(1, 147, 220, 0.5);
+    backdrop-filter: blur(4px);
+    color: var(--clr-white);
+    font-size: rem(24);
+    padding: rem(10) rem(15);
+    vertical-align: middle;
+    font-weight: 700;
+  }
+}
+
+.swiper-button-next {
+  right: rem(165);
+  &::after {
+    content: ">";
+  }
+  @include breakpoint-down(lg) {
+    right: rem(100);
+  }
+  @include breakpoint-down(sm) {
+    right: rem(15);
+  }
+}
+
+.swiper-button-prev {
+  left: rem(165);
+  &::after {
+    content: "<";
+  }
+  @include breakpoint-down(lg) {
+    left: rem(100);
+  }
+  @include breakpoint-down(sm) {
+    left: rem(15);
+  }
+}

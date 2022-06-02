@@ -1,14 +1,14 @@
 @use "../../../scss/utilities/" as *;
 
 .gallery {
-  background-color: #f9fbfd;
+  background-color: var(--bg-lighter);
   margin-bottom: rem(80);
 }
 
 .gallery__title {
   font-size: rem(24);
   line-height: rem(38);
-  color: #0c101a;
+  color: var(--clr-title);
   margin-bottom: rem(20);
 }
 

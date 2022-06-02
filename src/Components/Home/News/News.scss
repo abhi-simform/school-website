@@ -16,14 +16,14 @@
     line-height: rem(38);
   }
   .ant-input-affix-wrapper {
-    background-color: #f6f7f9;
+    background-color: var(--bg-lighter);
     border: none;
   }
   .ant-input {
     margin-left: rem(16);
     font-size: rem(14);
     line-height: rem(18);
-    background-color: #f6f7f9;
+    background-color: var(--bg-lighter);
     &::placeholder {
       font-size: rem(14);
       line-height: rem(18);

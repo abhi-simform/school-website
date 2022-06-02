@@ -1,0 +1,15 @@
+@use "../../../scss/utilities/" as *;
+
+.about-hero {
+  padding-block: rem(170) rem(80);
+  background-image: url("../../../Assets/Images/heor-bg.jpg");
+  background-size: cover;
+}
+
+.about-title {
+  text-align: center;
+  font-size: rem(24);
+  line-height: rem(33);
+  color: var(--clr-white);
+  margin-bottom: rem(40);
+}

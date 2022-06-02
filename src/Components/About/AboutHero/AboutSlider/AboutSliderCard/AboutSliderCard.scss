@@ -1,0 +1,17 @@
+@use "../../../../../scss/utilities/" as *;
+
+.about-slider-card {
+  width: auto;
+  height: auto;
+  text-align: center;
+  img {
+    border-radius: 5px;
+  }
+  p {
+    font-size: rem(18);
+    line-height: rem(24);
+    color: var(--clr-white);
+    margin-top: rem(18);
+    margin-bottom: 0;
+  }
+}

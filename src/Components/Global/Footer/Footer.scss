@@ -23,7 +23,7 @@
 
 .footer__address {
   display: grid;
-  color: #0c101a;
+  color: var(--clr-title);
   img {
     margin-bottom: rem(16);
   }
@@ -56,7 +56,7 @@
 .footer__list__title {
   font-size: rem(16);
   line-height: rem(22);
-  color: #0c101a;
+  color: var(--clr-title);
   margin-bottom: rem(32);
 }
 
@@ -84,6 +84,6 @@
 .footer__copyright {
   font-size: rem(12);
   line-height: rem(24);
-  color: #0c101a;
+  color: var(--clr-title);
   padding-block: rem(28);
 }

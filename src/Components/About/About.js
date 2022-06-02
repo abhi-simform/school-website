@@ -1,5 +1,17 @@
+import react from "react";
+
+import AboutHero from "./AboutHero/AboutHero";
+import Cibadak from "./Cibadak/Cibadak";
+import AboutData from "./AboutData/AboutData";
+
 const About = () => {
-  return <p>About is working</p>;
+  return (
+    <>
+      <AboutHero />
+      <Cibadak />
+      <AboutData />
+    </>
+  );
 };
 
 export default About;
