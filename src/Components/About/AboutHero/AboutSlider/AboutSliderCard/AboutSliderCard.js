@@ -1,5 +1,3 @@
-import react from "react";
-
 import "./AboutSliderCard.scss";
 
 const AboutSliderCard = (props) => {

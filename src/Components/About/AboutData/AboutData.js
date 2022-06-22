@@ -1,5 +1,3 @@
-import react from "react";
-
 import TableOne from "./Tables/TableOne";
 import TableTwo from "./Tables/TableTwo";
 import TableThree from "./Tables/TableThree";

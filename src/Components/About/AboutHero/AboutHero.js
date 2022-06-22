@@ -1,5 +1,3 @@
-import react from "react";
-
 import AboutSlider from "./AboutSlider/AboutSlider";
 
 import "./AboutHero.scss";

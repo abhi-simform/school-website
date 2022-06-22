@@ -3,12 +3,12 @@ import React from "react";
 import { Row, Col } from "antd";
 import { Button } from "antd";
 
-import Gallery1 from "../../../Assets/Images/Gallery/gallery1.jpg";
-import Gallery2 from "../../../Assets/Images/Gallery/gallery2.jpg";
-import Gallery3 from "../../../Assets/Images/Gallery/gallery3.jpg";
-import Gallery4 from "../../../Assets/Images/Gallery/gallery4.jpg";
-import Gallery5 from "../../../Assets/Images/Gallery/gallery5.jpg";
-import Gallery6 from "../../../Assets/Images/Gallery/gallery6.jpg";
+import Gallery1 from "../../../Assets/Images/Gallery/gallery1.webp";
+import Gallery2 from "../../../Assets/Images/Gallery/gallery2.webp";
+import Gallery3 from "../../../Assets/Images/Gallery/gallery3.webp";
+import Gallery4 from "../../../Assets/Images/Gallery/gallery4.webp";
+import Gallery5 from "../../../Assets/Images/Gallery/gallery5.webp";
+import Gallery6 from "../../../Assets/Images/Gallery/gallery6.webp";
 
 import "./Gallery.scss";
 

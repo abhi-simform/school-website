@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 import { MenuOutlined } from "@ant-design/icons";
 
-import Logo from "../../../Assets/Images/logo.png";
+import Logo from "../../../Assets/Images/logo.webp";
 
 import "./Header.scss";
 
@@ -17,7 +17,7 @@ const Header = () => {
     <header className="header" id="header">
       <div className="container header-container">
         <div className="logo">
-          <a href="#">
+          <a href="google.com">
             <img src={Logo} alt="" />
           </a>
         </div>

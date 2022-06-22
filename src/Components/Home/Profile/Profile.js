@@ -3,10 +3,10 @@ import React from "react";
 import { Row, Col } from "antd";
 import { Button } from "antd";
 
-import Profile1 from "../../../Assets/Images/Profile/profile1.png";
-import Profile2 from "../../../Assets/Images/Profile/profile2.png";
-import Profile3 from "../../../Assets/Images/Profile/profile3.png";
-import Profile4 from "../../../Assets/Images/Profile/profile4.png";
+import Profile1 from "../../../Assets/Images/Profile/profile1.webp";
+import Profile2 from "../../../Assets/Images/Profile/profile2.webp";
+import Profile3 from "../../../Assets/Images/Profile/profile3.webp";
+import Profile4 from "../../../Assets/Images/Profile/profile4.webp";
 
 import "./Profile.scss";
 

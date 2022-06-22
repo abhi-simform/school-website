@@ -1,5 +1,3 @@
-import react from "react";
-
 import { Swiper, SwiperSlide } from "swiper/react";
 
 import AboutSliderCard from "./AboutSliderCard/AboutSliderCard";
@@ -11,10 +9,10 @@ import "./AboutSlider.scss";
 
 import { Navigation } from "swiper";
 
-import SlideImage1 from "../../../../Assets/Images/Slider/Slider1.jpg";
-import SlideImage2 from "../../../../Assets/Images/Slider/Slider2.jpg";
-import SlideImage3 from "../../../../Assets/Images/Slider/Slider3.jpg";
-import SlideImage4 from "../../../../Assets/Images/Slider/Slider4.jpg";
+import SlideImage1 from "../../../../Assets/Images/Slider/Slider1.webp";
+import SlideImage2 from "../../../../Assets/Images/Slider/Slider2.webp";
+import SlideImage3 from "../../../../Assets/Images/Slider/Slider3.webp";
+import SlideImage4 from "../../../../Assets/Images/Slider/Slider4.webp";
 
 const slideData = [
   {

@@ -1,12 +1,10 @@
-import react from "react";
-
 import { Row, Col } from "antd";
 
-import addressImage from "../../../Assets/Images/Cibadak/address.png";
-import chartImage from "../../../Assets/Images/Cibadak/chart.png";
-import listImage from "../../../Assets/Images/Cibadak/list.png";
-import locationImage from "../../../Assets/Images/Cibadak/location.png";
-import siteImage from "../../../Assets/Images/Cibadak/site.png";
+import addressImage from "../../../Assets/Images/Cibadak/address.webp";
+import chartImage from "../../../Assets/Images/Cibadak/chart.webp";
+import listImage from "../../../Assets/Images/Cibadak/list.webp";
+import locationImage from "../../../Assets/Images/Cibadak/location.webp";
+import siteImage from "../../../Assets/Images/Cibadak/site.webp";
 
 import "./Cibadak.scss";
 

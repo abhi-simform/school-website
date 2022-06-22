@@ -6,14 +6,14 @@ import { SearchOutlined } from "@ant-design/icons";
 import NewsCard from "./NewsCard/NewsCard";
 import AgendaCard from "./AgendaCard/AgendaCard";
 
-import News1 from "../../../Assets/Images/News/news1.jpg";
-import News2 from "../../../Assets/Images/News/news2.jpg";
-import News3 from "../../../Assets/Images/News/news3.jpg";
-import News4 from "../../../Assets/Images/News/news4.jpg";
+import News1 from "../../../Assets/Images/News/news1.webp";
+import News2 from "../../../Assets/Images/News/news2.webp";
+import News3 from "../../../Assets/Images/News/news3.webp";
+import News4 from "../../../Assets/Images/News/news4.webp";
 
-import Agenda1 from "../../../Assets/Images/Agenda/agenda1.jpg";
-import Agenda2 from "../../../Assets/Images/Agenda/agenda1.jpg";
-import Agenda3 from "../../../Assets/Images/Agenda/agenda3.jpg";
+import Agenda1 from "../../../Assets/Images/Agenda/agenda1.webp";
+import Agenda2 from "../../../Assets/Images/Agenda/agenda1.webp";
+import Agenda3 from "../../../Assets/Images/Agenda/agenda3.webp";
 
 import "./News.scss";
 

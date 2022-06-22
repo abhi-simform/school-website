@@ -5,15 +5,15 @@ import { SearchOutlined } from "@ant-design/icons";
 
 import GuruCard from "./GuruCard/GuruCard";
 
-import Guru1 from "../../../Assets/Images/Guru/guru1.jpg";
-import Guru2 from "../../../Assets/Images/Guru/guru2.jpg";
-import Guru3 from "../../../Assets/Images/Guru/guru3.jpg";
-import Guru4 from "../../../Assets/Images/Guru/guru4.jpg";
-import Guru5 from "../../../Assets/Images/Guru/guru5.jpg";
-import Guru6 from "../../../Assets/Images/Guru/guru6.jpg";
-import Guru7 from "../../../Assets/Images/Guru/guru7.jpg";
-import Guru8 from "../../../Assets/Images/Guru/guru8.jpg";
-import Guru9 from "../../../Assets/Images/Guru/guru9.jpg";
+import Guru1 from "../../../Assets/Images/Guru/guru1.webp";
+import Guru2 from "../../../Assets/Images/Guru/guru2.webp";
+import Guru3 from "../../../Assets/Images/Guru/guru3.webp";
+import Guru4 from "../../../Assets/Images/Guru/guru4.webp";
+import Guru5 from "../../../Assets/Images/Guru/guru5.webp";
+import Guru6 from "../../../Assets/Images/Guru/guru6.webp";
+import Guru7 from "../../../Assets/Images/Guru/guru7.webp";
+import Guru8 from "../../../Assets/Images/Guru/guru8.webp";
+import Guru9 from "../../../Assets/Images/Guru/guru9.webp";
 
 import "./Gurus.scss";
 
